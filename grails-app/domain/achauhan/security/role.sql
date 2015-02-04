@@ -1,0 +1,1 @@
+INSERT INTO `techbook`.`role` (`id`, `version`, `authority`) VALUES ('1', '0', 'USER_ADMIN');
