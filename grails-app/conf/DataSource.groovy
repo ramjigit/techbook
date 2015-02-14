@@ -40,10 +40,10 @@ environments {
 		dataSource {
 			pooled = true
 			dbCreate = "update"
-			url = "jdbc:mysql://mysql2676-techbook.ind-cloud.everdata.com/techbook"
+			url = ""
 			driverClassName = "com.mysql.jdbc.Driver"
-			username = "techbook"
-			password = "WLnz9QWYb6nyWuKR"
+			username = ""
+			password = ""
 			pooled = true
 			properties {
 				initialSize = 5
