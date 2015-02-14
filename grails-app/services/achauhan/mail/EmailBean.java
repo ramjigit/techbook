@@ -17,11 +17,11 @@ import javax.mail.internet.MimeMultipart;
 public class EmailBean {
 
 	private int port = 587;
-	private String host = "smtp.techbook.me";
+	private String host = "";
 	private String from = "info@techbook.me";
 	private boolean auth = true;
 	private String username = "info@techbook.me";
-	private String password = "87F6]7h8702aV~z";
+	private String password = "";
 	private Protocol protocol = Protocol.SMTPS;
 
 	public void sendWelcomeMail(String to, String user) {
